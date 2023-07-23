@@ -9,8 +9,11 @@ const student = [
 
 const allStudent = student.map(value => value.id);
 const allStudentName = student.map(value => value.name);
-const oldStudent = student.filter(s => s.id > 30)
-console.log(allStudent, allStudentName, oldStudent);
+
+console.log(allStudent, allStudentName);
+
+const oldStudent = student.filter(s => s.id>40);
+console.log(oldStudent);
 
 // objArray = [ { foo: 1, bar: 2}, { foo: 3, bar: 4}, { foo: 5, bar: 6} ];
 
